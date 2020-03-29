@@ -18,7 +18,7 @@ const got = require('got');
     }
 })();
 
-// //Calling Invalid URL with Promises
+// //Calling URL with Promises
 (function prom2() {
     got('https://jsonplaceholder.typicode.com/todos/1')
     .then(response => {
